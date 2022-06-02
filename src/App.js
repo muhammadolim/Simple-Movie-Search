@@ -4,6 +4,9 @@ import styled from "styled-components";
 import MovieComponent from "./components/MovieComponent";
 import MovieInfoComponent from "./components/MovieInfoComponent";
 
+import movieIcon from "./movie-icon.svg";
+import searchIcon from "./search-icon.svg";
+
 export const API_KEY = "24097f78";
 
 const Container = styled.div`
@@ -83,18 +86,18 @@ function App() {
     onMovieSelect("") 
     clearTimeout(timeoutId);
     updateSearchQuery(e.target.value);
-    const timeout = setTimeout(() => fetchData(e.target.value),500);
+    const timeout = setTimeout(() => fetchData(e.target.value),200);
     updateTimeoutId(timeout);
   };
   return (
     <Container>
       <Header>
         <AppName>
-          <MovieImage src="/movie-icon.svg" />
+          <MovieImage src={movieIcon} />
           React Movie App
         </AppName>
         <SearchBox>
-          <SearchIcon src="/search-icon.svg" />
+          <SearchIcon src={searchIcon} />
           <SearchInput
             placeholder="Search Movie"
             value={searchQuery}
@@ -117,7 +120,7 @@ function App() {
               />
             ))
         )  : (
-            <Placeholder src="/movie-icon.svg" />
+            <Placeholder src={movieIcon} />
           )
         }
       </MovieListContainer>
