@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/Simple-Movie-Search/static/css/main.70a47c26.css",
-    "main.js": "/Simple-Movie-Search/static/js/main.695eefe8.js",
+    "main.js": "/Simple-Movie-Search/static/js/main.749f9553.js",
+    "static/media/movie-icon.svg": "/Simple-Movie-Search/static/media/movie-icon.1e64a77b2c2c77758f3d815602bba09f.svg",
+    "static/media/search-icon.svg": "/Simple-Movie-Search/static/media/search-icon.077696d454e854fd332e9275af3dc31c.svg",
     "index.html": "/Simple-Movie-Search/index.html",
     "main.70a47c26.css.map": "/Simple-Movie-Search/static/css/main.70a47c26.css.map",
-    "main.695eefe8.js.map": "/Simple-Movie-Search/static/js/main.695eefe8.js.map"
+    "main.749f9553.js.map": "/Simple-Movie-Search/static/js/main.749f9553.js.map"
   },
   "entrypoints": [
     "static/css/main.70a47c26.css",
-    "static/js/main.695eefe8.js"
+    "static/js/main.749f9553.js"
   ]
 }
