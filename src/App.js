@@ -93,7 +93,7 @@ function App() {
     <Container>
       <Header>
         <AppName>
-          <MovieImage src={movieIcon} />
+          <MovieImage src="https://static.thenounproject.com/png/204047-200.png" />
           React Movie App
         </AppName>
         <SearchBox>
