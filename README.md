@@ -1,3 +1,6 @@
+# [Simple-Movie-Search](https://muhammadolim.github.io/Simple-Movie-Search)
+Simple Movie Search
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
