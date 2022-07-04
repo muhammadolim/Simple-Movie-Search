@@ -1,5 +1,5 @@
 # [Simple-Movie-Search](https://muhammadolim.github.io/Simple-Movie-Search)
-Simple Movie Search
+Simple Movie Search React App
 
 # Getting Started with Create React App
 
